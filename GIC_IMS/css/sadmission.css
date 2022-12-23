@@ -1,0 +1,135 @@
+.container {
+    padding: 0px 50px 0px 50px;
+}
+
+.addmission-list {
+    background-color: #03A9F4;
+    border: 1px solid gray;
+    width: 260px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.dp {
+    width: 60px;
+    height: 60px;
+}
+
+.stnname {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+}
+
+#btnCreate {
+    margin-left: 80%;
+}
+
+/* styles for popup */
+  
+h1 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #06D85F;
+    margin: 80px 0;
+  }
+  
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #06D85F;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+    
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 70%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 80%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+  .col-3 {
+    text-align: center;
+  }
+
+  .popupdp {
+    width: 150px;
+    height: 150px;
+  }
+
+  .col{
+      align-content: space-evenly;
+  }
+
+.close {
+    color: #009d63;
+    font-weight: bold;
+}
+
+h6{
+    font-size:28px;
+}

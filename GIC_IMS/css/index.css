@@ -1,0 +1,46 @@
+
+.navbar-brand {
+  margin-left: 55px;
+}
+
+.abc {
+  background-image: url("../img/homebg2.png");
+  background-size: cover;
+  background-color: rgb(66, 62, 62);
+}
+
+
+.col {
+  width: 50%;
+}
+
+.heading {
+  padding: 100px 150px;
+}
+
+.img {
+  width: 70%;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+
+
+.btn2 {
+  background-color: rgb(39, 37, 37);
+  border-radius: 20px;
+  color: white;
+  border-color: white;
+  height: 40px;
+  width: 150px;
+}
+
+  .btn2:hover {
+      background-color: white;
+      color: black;
+      font: bold;
+      border-color: black;
+  }
